@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Country Explorer</h1>
+        <div class="search-container">
+            <button onclick="window.location.href='wishlist.html'" id="wishlist-btn">Your Favourite</button>
+            <select id="region-filter">
+                <option value="">Select Region</option>
+            </select>
+            <select id="language-filter">
+                <option value="">Select Language</option>
+            </select>
+            <input type="text" id="search-input" placeholder="Search for a country...">
+            <div id="suggestions-dropdown" class="dropdown"></div>
+            <button id="search-btn">🔍</button>
+        </div>
+    </header>
+    <main id="countries"></main>
+    <button id="load-more" style="display: none;">Load More</button>
+    <div id="message-container"></div>
+    <button id="load-less" style="display: none;">Load Less</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

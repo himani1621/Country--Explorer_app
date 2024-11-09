@@ -1,0 +1,69 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body background color */
+body {
+    background-color: black; 
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center; 
+    padding: 20px; 
+    background-color: rgb(74, 171, 74); 
+}
+
+/* Style for the back button */
+.back-button {
+    background-color: rgb(241, 126, 3); 
+    padding: 10px; 
+    margin-left: 50%; 
+    border-radius: 10px; 
+}
+
+/* Style for each favorite item in the list */
+.favorite-item {
+    margin: 20px 40px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    padding: 8px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #eaf0b3; 
+    transition: background-color 0.2s; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Hover effect for favorite items */
+.favorite-item:hover {
+    background-color: #f9f9f9; 
+}
+
+/* Style for the span inside favorite items */
+.favorite-item span {
+    margin-right: 10px; 
+    padding: 5px; 
+    background-color: #e0f7fa; 
+    border-radius: 3px; 
+}
+
+/* Style for delete button in favorite items */
+.favorite-item button {
+    background-color: #ff6f61; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+/* Hover effect for delete button */
+.favorite-item button:hover {
+    background-color: #ff3d3d; 
+}

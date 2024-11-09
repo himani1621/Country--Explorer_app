@@ -1,0 +1,106 @@
+/* Basic font and background color settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030202;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+/* Main container styling, including max width and background */
+main {
+    max-width: 800px; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(223, 211, 169); 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Centered heading style */
+h2 {
+    text-align: center; 
+    color: #4CAF50; 
+    margin-bottom: 20px; 
+}
+
+/* Image display and sizing */
+img {
+    display: block; 
+    margin: 0 auto; 
+    width: 150px; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+/* Details section styling */
+.details-info {
+    margin: 20px 0; 
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+/* Strong text color */
+strong {
+    color: #333;
+}
+
+/* Styles for Add to Favorites and Remove from Favorites buttons */
+button {
+    display: block; 
+    width: 100%; 
+    padding: 10px;
+    margin-top: 20px;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.add-favorite {
+    background-color: #003366; /* Dark blue */
+}
+
+.add-favorite:hover {
+    background-color: #00509e;
+}
+
+.remove-favorite {
+    background-color: #8B0000; /* Dark red */
+}
+
+.remove-favorite:hover {
+    background-color: #b30000;
+}
+
+/* Back button styling */
+.back-button {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    background-color: #080a08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Hover effect for back button */
+.back-button:hover {
+    background-color: #333333;
+}
