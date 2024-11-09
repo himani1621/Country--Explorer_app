@@ -1,10 +1,10 @@
-##Country Explorer##
+**Country Explorer**
 
-##Overview##
+**Overview**
 
 Country Explorer is a web application that allows users to explore and discover various countries around the world. Users can view detailed information about each country, including its caital, region, population, area, and languages. The app also enables users to save their favorite countries for quick access later.
 
-##Features##
+**Features**
 
  • Country Browsing: Explore a comprehensive list of countries with essential details at a glance.
 
@@ -16,7 +16,7 @@ Country Explorer is a web application that allows users to explore and discover 
 
  • Persistent Storage: Favorites are saved in the browser's local storage, maintaining user preferences across sessions.
 
-##Technologies Used##
+**Technologies Used**
 
  • HTML: Structure of the web pages.
 
@@ -24,9 +24,9 @@ Country Explorer is a web application that allows users to explore and discover 
 
  • JavaScript: Interactive features, including data fetching and local storage management.
 
-##File Structure##
+**File Structure**
 
-##country-explorer##
+**country-explorer**
 
 ├── index.html   # Main page to browse countries
 
@@ -44,7 +44,7 @@ Country Explorer is a web application that allows users to explore and discover 
 
 └── README.md   # Project documentation
 
-##Description of Each File##
+**Description of Each File**
 
 1.index.html: The main page where users can browse a list of countries.
 
@@ -66,13 +66,13 @@ Country Explorer is a web application that allows users to explore and discover 
 
 10.README.md: Documentation that outlines the project overview, features, installation instructions, and usage.
 
-##Installation##
+**Installation**
 
  • Clone the repository: http://himanibisht.me/Country-Explorer/
 
  • Open index.html in your web browser to view the application.
 
-##Usage##
+**Usage**
 
  • Start on the Country Explorer page to see the list of countries.
 
@@ -84,7 +84,7 @@ Country Explorer is a web application that allows users to explore and discover 
 
  • Navigate back to the main country list using the Back to Countries button.
 
-##Limitations##
+**Limitations**
 
  • Users can only save a maximum of five favorite countries.
 
