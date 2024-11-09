@@ -68,7 +68,7 @@ Country Explorer is a web application that allows users to explore and discover 
 
 **Installation**
 
- • Clone the repository: http://himanibisht.me/Country-Explorer/
+ • Clone the repository: http://himanibisht.me/Country--Explorer_app/
 
  • Open index.html in your web browser to view the application.
 
