@@ -1,50 +1,50 @@
-Country Explorer
+##Country Explorer##
 
-Overview
+##Overview##
 
-Country Explorer is a web application that allows users to explore and discover various countries around the world. Users can view detailed information about each country, including its capital, region, population, area, and languages. The app also enables users to save their favorite countries for quick access later.
+Country Explorer is a web application that allows users to explore and discover various countries around the world. Users can view detailed information about each country, including its caital, region, population, area, and languages. The app also enables users to save their favorite countries for quick access later.
 
-Features
+##Features##
 
-Country Browsing: Explore a comprehensive list of countries with essential details at a glance.
+ • Country Browsing: Explore a comprehensive list of countries with essential details at a glance.
 
-Country Details: Click on any country to view in-depth information, including flags and geographical data.
+ • Country Details: Click on any country to view in-depth information, including flags and geographical data.
 
-Favorites List: Save up to five countries to a favorites list for easy reference.
+ • Favorites List: Save up to five countries to a favorites list for easy reference.
 
-Responsive Design: The app is optimized for various screen sizes, ensuring a seamless experience on mobile and desktop devices.
+ • Responsive Design: The app is optimized for various screen sizes, ensuring a seamless experience on mobile and desktop devices.
 
-Persistent Storage: Favorites are saved in the browser's local storage, maintaining user preferences across sessions.
+ • Persistent Storage: Favorites are saved in the browser's local storage, maintaining user preferences across sessions.
 
-Technologies Used
+##Technologies Used##
 
-HTML: Structure of the web pages.
+ • HTML: Structure of the web pages.
 
-CSS: Styling for a clean and modern interface.
+ • CSS: Styling for a clean and modern interface.
 
-JavaScript: Interactive features, including data fetching and local storage management.
+ • JavaScript: Interactive features, including data fetching and local storage management.
 
-File Structure
+##File Structure##
 
-country-explorer
+##country-explorer##
 
-├── index.html # Main page to browse countries
+├── index.html   # Main page to browse countries
 
-├── app.html # Page for displaying detailed information about a selected country
+├── app.html   # Page for displaying detailed information about a selected country
 
-├── wishlist.html # Page for managing user's favorite countries
+├── wishlist.html   # Page for managing user's favorite countries
 
-├── styles.css # CSS file for the main application styling
+├── styles.css   # CSS file for the main application styling
 
-├── wishlist.css # CSS file specifically for the wishlist page styling
+├── wishlist.css   # CSS file specifically for the wishlist page styling
 
-├── app.js # JavaScript file for country detail logic and favorites management
+├── app.js   # JavaScript file for country detail logic and favorites management
 
-├── wishlist.js # JavaScript file for handling wishlist functionalities
+├── wishlist.js   # JavaScript file for handling wishlist functionalities
 
-└── README.md # Project documentation
+└── README.md   # Project documentation
 
-Description of Each File
+##Description of Each File##
 
 1.index.html: The main page where users can browse a list of countries.
 
@@ -66,26 +66,26 @@ Description of Each File
 
 10.README.md: Documentation that outlines the project overview, features, installation instructions, and usage.
 
-Installation
+##Installation##
 
-Clone the repository: http://himanibisht.me/Country-Explorer/
+ • Clone the repository: http://himanibisht.me/Country-Explorer/
 
-Open index.html in your web browser to view the application.
+ • Open index.html in your web browser to view the application.
 
-Usage
+##Usage##
 
-Start on the Country Explorer page to see the list of countries.
+ • Start on the Country Explorer page to see the list of countries.
 
-Click on a country to view its detailed information.
+ • Click on a country to view its detailed information.
 
-Use the Add to Favorites button to save countries you love.
+ • Use the Add to Favorites button to save countries you love.
 
-Access the Your Favorite page to view and manage your favorites.
+ • Access the Your Favorite page to view and manage your favorites.
 
-Navigate back to the main country list using the Back to Countries button.
+ • Navigate back to the main country list using the Back to Countries button.
 
-Limitations
+##Limitations##
 
-Users can only save a maximum of five favorite countries.
+ • Users can only save a maximum of five favorite countries.
 
-The application does not currently include user authentication features.
+ • The application does not currently include user authentication features.
