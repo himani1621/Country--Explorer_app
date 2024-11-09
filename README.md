@@ -1,8 +1,11 @@
 Country Explorer
+
 Overview
+
 Country Explorer is a web application that allows users to explore and discover various countries around the world. Users can view detailed information about each country, including its capital, region, population, area, and languages. The app also enables users to save their favorite countries for quick access later.
 
 Features
+
 Country Browsing: Explore a comprehensive list of countries with essential details at a glance.
 
 Country Details: Click on any country to view in-depth information, including flags and geographical data.
@@ -14,6 +17,7 @@ Responsive Design: The app is optimized for various screen sizes, ensuring a sea
 Persistent Storage: Favorites are saved in the browser's local storage, maintaining user preferences across sessions.
 
 Technologies Used
+
 HTML: Structure of the web pages.
 
 CSS: Styling for a clean and modern interface.
@@ -21,7 +25,9 @@ CSS: Styling for a clean and modern interface.
 JavaScript: Interactive features, including data fetching and local storage management.
 
 File Structure
+
 country-explorer
+
 ├── index.html # Main page to browse countries
 
 ├── app.html # Page for displaying detailed information about a selected country
@@ -61,11 +67,13 @@ Description of Each File
 10.README.md: Documentation that outlines the project overview, features, installation instructions, and usage.
 
 Installation
+
 Clone the repository: http://himanibisht.me/Country-Explorer/
 
 Open index.html in your web browser to view the application.
 
 Usage
+
 Start on the Country Explorer page to see the list of countries.
 
 Click on a country to view its detailed information.
@@ -77,6 +85,7 @@ Access the Your Favorite page to view and manage your favorites.
 Navigate back to the main country list using the Back to Countries button.
 
 Limitations
+
 Users can only save a maximum of five favorite countries.
 
 The application does not currently include user authentication features.
